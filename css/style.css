@@ -86,10 +86,6 @@ main {
 .col {
   width: calc(100% / 3);
   padding: 0 5px;
-
-  /* test */
-
-  border: 1px solid red;
 }
 
 /* product card */
@@ -97,11 +93,12 @@ main {
 /* elementi con position */
 .card {
   position: relative;
+  padding-bottom: 30px;
 }
 .etichetta {
   position: absolute;
   left: 0;
-  bottom: 75px;
+  bottom: 105px;
 }
 .sconto {
   background-color: red;
