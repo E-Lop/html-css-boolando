@@ -162,6 +162,7 @@ main {
 footer {
   background-color: #1a1a1a;
   color: white;
+  padding: 15px 0;
 }
 
 .footer-box {
@@ -178,18 +179,27 @@ footer {
 
 .social {
   width: 20%;
+  text-align: right;
 }
 
-h3 + ul {
+h5 + ul {
   list-style-type: none;
   display: flex;
 }
 
-h3 + ul li {
+h5 + ul li {
   padding-right: 5px;
 }
 
-h3 + ul li a {
+h5 + ul li a {
   text-decoration: none;
   color: inherit;
+  font-size: 8px;
+}
+
+.trovaci {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  padding-right: 10px;
 }
