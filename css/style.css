@@ -24,6 +24,10 @@ header {
   background-color: #ff6900;
   height: 80px;
   padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header-box {
@@ -64,4 +68,9 @@ header {
 .login {
   width: 40%;
   text-align: right;
+}
+/* MAIN */
+
+main {
+  margin-top: 80px;
 }
