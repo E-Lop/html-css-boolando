@@ -156,3 +156,40 @@ main {
 .heart:hover {
   color: red;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.footer-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.site-info {
+  width: 80%;
+}
+
+.social {
+  width: 20%;
+}
+
+h3 + ul {
+  list-style-type: none;
+  display: flex;
+}
+
+h3 + ul li {
+  padding-right: 5px;
+}
+
+h3 + ul li a {
+  text-decoration: none;
+  color: inherit;
+}
