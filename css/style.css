@@ -96,3 +96,27 @@ main {
 .card img {
   width: 100%;
 }
+.product-brand {
+  font-size: 10px;
+}
+.product-description {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.price {
+  font-size: 9px;
+  color: red;
+}
+.slashed-price {
+  font-size: 9px;
+  text-decoration: line-through;
+}
+.secondary-img {
+  display: none;
+}
+.image-container:hover .secondary-img {
+  display: block;
+}
+.image-container:hover .primary-img {
+  display: none;
+}
