@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* common */
@@ -10,4 +11,57 @@
 .container {
   width: 60%;
   margin: 0 auto;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+/* header */
+
+header {
+  background-color: #ff6900;
+  height: 80px;
+  padding: 15px;
+}
+
+.header-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.categorie {
+  width: 40%;
+}
+
+/* categorie */
+.categorie ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.categorie ul li {
+  padding: 5px;
+}
+
+.categorie ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  width: 30%;
+  text-align: center;
+}
+.logo img {
+  height: 40px;
+}
+
+.login {
+  width: 40%;
+  text-align: right;
 }
