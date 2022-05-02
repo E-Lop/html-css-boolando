@@ -88,6 +88,11 @@ main {
   padding: 0 5px;
 
   /* test */
-  height: 100px;
+
   border: 1px solid red;
+}
+
+/* product card */
+.card img {
+  width: 100%;
 }
