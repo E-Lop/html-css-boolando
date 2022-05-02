@@ -93,6 +93,38 @@ main {
 }
 
 /* product card */
+
+/* elementi con position */
+.card {
+  position: relative;
+}
+.etichetta {
+  position: absolute;
+  left: 0;
+  bottom: 75px;
+}
+.sconto {
+  background-color: red;
+  color: white;
+  width: 45px;
+  text-align: center;
+}
+.sostenibilita {
+  background-color: green;
+  color: white;
+  width: 120px;
+  text-align: center;
+}
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: white;
+  width: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
 .card img {
   width: 100%;
 }
@@ -119,4 +151,8 @@ main {
 }
 .image-container:hover .primary-img {
   display: none;
+}
+
+.heart:hover {
+  color: red;
 }
